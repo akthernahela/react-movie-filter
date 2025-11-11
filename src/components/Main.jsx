@@ -34,7 +34,8 @@ export default function Main() {
         if (selectedGenre === '') {
             setfilterMovies(movies);
         } else {
-            const newfilterMovies = movies.filter((movie) => movie.genre === selectedGenre)
+            const newfilterMovies = movies.filter((movie) => movie.genre === selectedGenre);
+            setfilterMovies(newfilterMovies);
         }
     }, [selectedGenre])
 
