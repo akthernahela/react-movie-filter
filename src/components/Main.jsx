@@ -52,7 +52,7 @@ export default function Main() {
         <main>
             <div>
                 <label>Scegli per Genere</label>
-                <select class="form-select form-select-sm" aria-label="Genre select menu" value={selectedGenre} onChange={handleChange}>
+                <select className="form-select form-select-sm" aria-label="Genre select menu" value={selectedGenre} onChange={handleChange}>
                     <option selected>Tutti i Generi</option>
                     {
                         onlyGenre.map((genre, index) => (<option key={index} value={genre}>{genre}</option>))
