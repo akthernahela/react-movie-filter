@@ -45,7 +45,8 @@ export default function Main() {
         if (!onlyGenre.includes(theGenre)) {
             onlyGenre.push(theGenre);
         }
-    })
+    });
+    const handleChange = (event) => { setselectedGenre(event.target.value); }
 
     return (
         <main>
