@@ -42,6 +42,9 @@ export default function Main() {
     let onlyGenre = [];
     movies.forEach(movie => {
         const theGenre = movie.genre;
+        if (!onlyGenre.includes(theGenre)) {
+            onlyGenre.push(theGenre);
+        }
     })
 
     return (
