@@ -28,6 +28,8 @@ export default function Main() {
         },
     ]
 
+    const [selectedGenre, setselectedGenre] = useState('');
+
     return (
         <main>
             <ul className="list-group">
