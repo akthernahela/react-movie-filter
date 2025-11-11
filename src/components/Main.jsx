@@ -32,6 +32,7 @@ export default function Main() {
     const [filterMovies, setfilterMovies] = useState(movies);
     useEffect(() => {
         if (selectedGenre === '') {
+            setfilterMovies(movies);
         }
     }, [selectedGenre])
 
