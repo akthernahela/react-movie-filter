@@ -35,8 +35,8 @@ export default function Main() {
                     movies.map((movie, index) => (
                         <li className="list-group-item d-flex justify-content-between align-items-start" key={index}>
                             <div className="ms-2 me-auto">
-                                <div className="fw-bold">Subheading</div>
-                                Content for list item
+                                <div className="fw-bold">{movie.title}</div>
+                                Genere: {movie.genre}
                             </div>
                         </li>
                     ))
