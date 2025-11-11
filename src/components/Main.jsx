@@ -40,6 +40,7 @@ export default function Main() {
     }, [selectedGenre]);
 
     let onlyGenre = [];
+    movies.forEach()
 
     return (
         <main>
