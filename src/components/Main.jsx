@@ -37,7 +37,9 @@ export default function Main() {
             const newfilterMovies = movies.filter((movie) => movie.genre === selectedGenre);
             setfilterMovies(newfilterMovies);
         }
-    }, [selectedGenre])
+    }, [selectedGenre]);
+
+    let onlyGenre = [];
 
     return (
         <main>
