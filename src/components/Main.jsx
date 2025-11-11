@@ -30,7 +30,11 @@ export default function Main() {
 
     const [selectedGenre, setselectedGenre] = useState('');
     const [filterMovies, setfilterMovies] = useState(movies);
-    useEffect(() => { }, [selectedGenre])
+    useEffect(() => {
+        if (selectedGenre === '') {
+        }
+    }, [selectedGenre])
+
     return (
         <main>
             <label>Scegli per Genere</label>
