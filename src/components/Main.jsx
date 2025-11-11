@@ -30,7 +30,7 @@ export default function Main() {
 
     return (
         <main>
-            <ul className="list-group list-group-numbered">
+            <ul className="list-group">
                 {
                     movies.map((movie, index) => (
                         <li className="list-group-item d-flex justify-content-between align-items-start" key={index}>
