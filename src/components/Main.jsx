@@ -29,6 +29,7 @@ export default function Main() {
     ]
 
     const [selectedGenre, setselectedGenre] = useState('');
+    const [filterMovies, setfilterMovies] = useState(movies);
 
     return (
         <main>
