@@ -62,7 +62,7 @@ export default function Main() {
             <hr />
             <ul className="list-group">
                 {
-                    movies.map((movie, index) => (
+                    filterMovies.map((movie, index) => (
                         <li className="list-group-item d-flex justify-content-between align-items-start" key={index}>
                             <div className="ms-2 me-auto">
                                 <div className="fw-bold">{movie.title}</div>
