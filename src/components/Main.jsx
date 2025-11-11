@@ -32,6 +32,8 @@ export default function Main() {
 
     return (
         <main>
+            <label>Scegli per Genere</label>
+            <hr />
             <ul className="list-group">
                 {
                     movies.map((movie, index) => (
