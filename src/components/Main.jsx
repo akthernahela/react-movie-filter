@@ -40,7 +40,9 @@ export default function Main() {
     }, [selectedGenre]);
 
     let onlyGenre = [];
-    movies.forEach()
+    movies.forEach(movie => {
+        const theGenre = movie.genre;
+    })
 
     return (
         <main>
