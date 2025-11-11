@@ -33,6 +33,8 @@ export default function Main() {
     useEffect(() => {
         if (selectedGenre === '') {
             setfilterMovies(movies);
+        } else {
+            const newfilterMovies = movies.filter((movie) => movie.genre === selectedGenre)
         }
     }, [selectedGenre])
 
